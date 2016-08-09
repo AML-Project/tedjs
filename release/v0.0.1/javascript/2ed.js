@@ -27,7 +27,7 @@ var tedApi;
     var
         ted = {},
         Ted_Native_Setting = {
-            url: "http://tedapi.poryagrand.ir/cdn/",
+            url: "http://api.tedjs.org/cdn/",
             libError: ""
         },
         _style,
