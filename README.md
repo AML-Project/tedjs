@@ -26,6 +26,8 @@ now complete the form and insert your library. now after inserting you can use `
 
 **to Update** your library , first remove your previous version and then insert the new one
 
+## If You Didn't Receive The verification Email , Contact Me To Mail You , Your Token API , Manually.
+
 # Documentation
 to read tedjs Documentation visit : [Tedjs Documentation](https://tedjs.org/#page:doc)
 
