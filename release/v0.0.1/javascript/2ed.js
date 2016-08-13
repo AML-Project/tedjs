@@ -2048,7 +2048,7 @@ var tedApi;
 
                 if (arguments.length == 0) return false;
 
-                var cond = (typeof arguments[i] === typeof "" ? /^[-+]{0,1}?(\d+(e[-+]{0,1}\d+){0,1}|Infinity)$/.test(arguments[i]) : Number.isInteger(arguments[i]));
+                var cond = (typeof arguments[i] === typeof "" ? /^[-+]{0,1}?(\d+(e[-+]{0,1}\d+){0,1}|Infinity)$/.test(arguments[i]) : (Number.isInteger ? Number.isInteger(arguments[i]) : (arguments[i] % 1 === 0)));
 
                 if (!cond) return false;
 
@@ -2066,7 +2066,7 @@ var tedApi;
 
                 var arg = arguments[i] + "";
 
-                var cond = ((typeof arg === typeof "") ? /^[+-]{0,1}?(\d+\.\d+(e[-+]{0,1}\d+){0,1}|Infinity)$/.test(arg) : !Number.isInteger(arguments[i]));
+                var cond = ((typeof arg === typeof "") ? /^[+-]{0,1}?(\d+\.\d+(e[-+]{0,1}\d+){0,1}|Infinity)$/.test(arg) : !tedApi.isInt(arguments[i]));
 
                 if (!cond) return false;
 
