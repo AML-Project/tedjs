@@ -4,7 +4,7 @@
 
  * @name Easy Element Definer
 
- * @version 0.0.1
+ * @version 0.0.2
 
  * @license MIT
 
@@ -5070,7 +5070,7 @@ var tedApi;
 
     ted = {
 
-        version: "0.0.1",
+        version: "0.0.2",
 
         __AfterFunctions: [],
 
@@ -5563,9 +5563,8 @@ var tedApi;
 
                 for (var a = 0; a < b.length; a++) {
 
-                    if (typeof Attrs[b[a].name] !== typeof $u && (-1 == Attrs[b[a].name].elements.indexOf(c.tagName.toLowerCase()) && 0 == Attrs[b[a].name].elements.length || -1 != Attrs[b[a].name].elements.indexOf(c.tagName.toLowerCase()) && 0 < Attrs[b[a].name].elements.length)) {
-
-                        Attrs[b[a].name]["function"].call(c, b[a].value);
+                    if (typeof Attrs[b[a].name] !== typeof $u) {
+if((-1 == Attrs[b[a].name].elements.indexOf(c.tagName.toLowerCase()) && 0 == Attrs[b[a].name].elements.length || -1 != Attrs[b[a].name].elements.indexOf(c.tagName.toLowerCase()) && 0 < Attrs[b[a].name].elements.length))Attrs[b[a].name]["function"].call(c, b[a].value);
 
                     }
 
