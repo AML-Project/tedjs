@@ -1,7 +1,7 @@
 # 2ed(Tedjs)
 Easy Element Definer
 
-##Official Web Site: [Tedjs Web Site(tedjs.org)](https://tedjs.org)
+# Official Web Site: [Tedjs Web Site(tedjs.org)](https://tedjs.org)
 # What is tedjs?
 > this is a library oriented framework to create your `Elements` , `Attributes` , `CommentNodes` and `TextNodes`.
 
@@ -31,7 +31,7 @@ now complete the form and insert your library. now after inserting you can use `
 **Email : porya.grand@outlook.com**
 
 # Documentation
-to read tedjs Documentation visit : [Tedjs Documentation](https://tedjs.org/#page:doc)
+to read tedjs Documentation visit : [Tedjs Documentation](https://tedjs.org/pages/document.html)
 
 # Licence
 this is a personal open source project under [**MIT**](https://github.com/poryagrand/tedjs/blob/master/LICENSE) Licence
