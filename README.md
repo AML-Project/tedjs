@@ -35,3 +35,7 @@ to read tedjs Documentation visit : [Tedjs Documentation](https://tedjs.org/page
 
 # Licence
 this is a personal open source project under [**MIT**](https://github.com/poryagrand/tedjs/blob/master/LICENSE) Licence
+
+# Author
+Porya Elahi - Student Of Quchan University of Advanced Technologies Engineering
+Web Site : [poryagrand.ir](http://poryagrand.ir)
