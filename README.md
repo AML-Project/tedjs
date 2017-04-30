@@ -1,5 +1,7 @@
 # 2ed(Tedjs)
-Easy Element Definer
+
+![Easy Element Definer](https://tedjs.org/images/header.png)
+
 
 # Official Web Site: [Tedjs Web Site(tedjs.org)](https://tedjs.org)
 # What is tedjs?
