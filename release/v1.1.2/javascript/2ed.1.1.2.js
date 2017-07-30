@@ -103,7 +103,7 @@ var tedApi;
                     return tedApi.show(this.self, e);
 
                 },
-                parent: function(l) {
+                parent: function(e) {
                     return tedApi.parent(this.self, e);
                 },
 
