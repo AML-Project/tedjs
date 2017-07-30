@@ -1032,7 +1032,7 @@ var tedApi;
         value: $$$each,
         writable: true,
         enumerable: false,
-        configurable: false
+        configurable: true
     });
 
     /**
@@ -1261,7 +1261,7 @@ var tedApi;
         value: $$$equal,
         writable: true,
         enumerable: false,
-        configurable: false
+        configurable: true
     });
 
 
@@ -1494,7 +1494,7 @@ var tedApi;
         value: $$$isEmpty,
         writable: true,
         enumerable: false,
-        configurable: false
+        configurable: true
     });
 
 
@@ -1519,7 +1519,7 @@ var tedApi;
         value: $$$copy,
         writable: true,
         enumerable: false,
-        configurable: false
+        configurable: true
     });
 
 
@@ -1570,7 +1570,7 @@ var tedApi;
         value: $$$push,
         writable: true,
         enumerable: false,
-        configurable: false
+        configurable: true
     });
 
 
