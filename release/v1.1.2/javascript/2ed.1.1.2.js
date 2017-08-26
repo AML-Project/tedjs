@@ -4,7 +4,7 @@
 
  * @name Easy Element Definer
 
- * @version 1.1.1
+ * @version 1.1.2
 
  * @license MIT
 
@@ -2741,6 +2741,12 @@ var tedApi;
 
         animGraph: function(points, fn, done) { //[ [length,top point] ...] , function , function
 
+            var Start, End, equ, t, len, count, i, xlen, loop = false,
+
+                stop = false,
+
+                finished = false;
+
             if (!tedApi.isArray(points) || !tedApi.isFunction(fn)) return 0;
 
             if (points.length == 0) return -1;
@@ -2764,14 +2770,6 @@ var tedApi;
 
 
             if (!isPoint(points[0])) return -3;
-
-
-
-            var Start, End, equ, t, len, count, i, xlen, loop = false,
-
-                stop = false,
-
-                finished = false;
 
 
 
@@ -2801,7 +2799,7 @@ var tedApi;
 
             function seT() {
 
-                setTimeout(function() {
+                window.setTimeout(function() {
 
                     if (stop) return 1;
 
@@ -4280,7 +4278,7 @@ var tedApi;
 
                         window[SONPVAR] = RetFunction(resolve);
 
-                        // setTimeout(script.onerror, 5000); might be advisable
+                        // window.setTimeout(script.onerror, 5000); might be advisable
 
                         script.src = /\?[\d\w]+\=/.test(SettingHttpe.url) ? SettingHttp.url + "&callback=" + SONPVAR : SettingHttp.url + "?callback=" + SONPVAR;
 
@@ -5456,7 +5454,7 @@ var tedApi;
 
             var i = 0;
 
-            var elmOn = setInterval(function() {
+            var elmOn = window.setInterval(function() {
 
                 if (typeof document.all[i] !== typeof $u) {
 
@@ -6086,7 +6084,7 @@ var tedApi;
 
             if (readyFired) {
 
-                setTimeout(function() {
+                window.setTimeout(function() {
 
                     callback(context);
 
@@ -6108,7 +6106,7 @@ var tedApi;
 
             if (document.readyState === "complete") {
 
-                setTimeout(ready, 1);
+                window.setTimeout(ready, 1);
 
             } else if (!readyEventHandlersInstalled) {
 
