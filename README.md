@@ -38,7 +38,6 @@ this is a personal open source project under [**MIT**](https://github.com/poryag
 **version** : 1.2.0
 
 # Author
-Porya Elahi - Student Of Industrial University Of Quchan
 
 Web Site : [poryagrand.ir](http://poryagrand.ir)
 
