@@ -42,5 +42,5 @@ Porya Elahi - Student Of Industrial University Of Quchan
 
 Web Site : [poryagrand.ir](http://poryagrand.ir)
 
-![Easy Element Definer](./plogo.png | width=355)
+<img src="./plogo.png" data-canonical-src="./plogo.png" style="width: auto;height: 70px;" height="70px"/>
 
