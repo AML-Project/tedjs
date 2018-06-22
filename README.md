@@ -22,10 +22,6 @@ to use libraries you can use `include` or `ainclude` function to use your librar
 > in version `1.2.0` a new way to use libraries has been added.
 > use `tedjs.export.<name> = function(){...}`
 
-**to Update** your library , first remove your previous version and then insert the new one
-
-**If You Didn't Receive The verification Email , Contact Me To Mail You , Your Token API , Manually.**
-
 **Email : porya.grand@outlook.com**
 
 # Documentation
