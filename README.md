@@ -25,7 +25,8 @@ to use libraries you can use `include` or `ainclude` function to use your librar
 **Email : porya.grand@outlook.com**
 
 # Documentation
-to read tedjs Documentation visit : [Tedjs Documentation](https://doc.tedjs.org/)
+- [Get Started](https://doc.tedjs.org/fa/page/GetStart)
+- to read more visit [Tedjs Document](https://doc.tedjs.org/)
 
 
 # Licence
