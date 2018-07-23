@@ -1931,7 +1931,7 @@ var tedApi;
 		isTag           : function () {
 			if (arguments.length == 0) return false;
 
-			var reg = /^\<[A-z0-9\_\-\$]+\>$/;
+			var reg = /^\<[^\>]+\>$/;
 
 			for (var i = 0; i < arguments.length; i++) {
 				var cond = tedApi.isElement(arguments[i]) ? reg.test(arguments[i].outerHTML) : false;
@@ -2760,7 +2760,7 @@ var tedApi;
 				w = w.concat(t);
 			}
 
-			return w.length == 1 ? w[0] : w.length == 0 ? null : w;
+			return tedApi.isArray(w) ? w.length == 1 ? w[0] : w.length == 0 ? null : w : null;
 		}, //creat and get element
 
 		replaceElement  : function (u, t) {
