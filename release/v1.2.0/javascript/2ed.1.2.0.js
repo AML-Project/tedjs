@@ -3885,7 +3885,7 @@ var tedApi;
 			) {
 				if (typeof pesu === typeof undefined) pesu = null;
 
-				return window.getComputedStyle(el, pesu)[index];
+				return window.getComputedStyle(el, pesu).getPropertyValue(index);
 			}
 
 			return undefined;
