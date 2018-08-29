@@ -29,6 +29,7 @@ to use libraries you can use `include` or `ainclude` function to use your librar
 - [Load Libraries](https://doc.tedjs.org/fa/page/includeLibrary)
 - [GLOBALS Function](https://doc.tedjs.org/fa/page/Globals)
 - [Validation Functions](https://doc.tedjs.org/fa/page/Validation)
+- [DOM Functions](https://doc.tedjs.org/fa/page/DOM)
 - to read more visit [Tedjs Document](https://doc.tedjs.org/)
 
 
