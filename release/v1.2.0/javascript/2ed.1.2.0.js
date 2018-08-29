@@ -3881,7 +3881,7 @@ var tedApi;
 			if (
 				tedApi.isElement(el) &&
 				tedApi.isString(index) &&
-				(tedApi.isArray(pesu) || tedApi.isUndefined(pesu) || tedApi.isNull(pesu))
+				(tedApi.isString(pesu) || tedApi.isUndefined(pesu) || tedApi.isNull(pesu))
 			) {
 				if (typeof pesu === typeof undefined) pesu = null;
 
