@@ -11,11 +11,7 @@
 > it has some helpful functions to help you Implementing your ideas . accessing to Events , creating Effects and ...
 
 # Why Use tedjs?
-with tedjs you can write your codes in your framework.
-your can create your Animations , transition Effects , Games , Mobile Apps and ...
-
-you can create your librarys and give it to others to use.(`Free` Or By `Price`)
-
+tedjs (2ed) is a simple framework that is used to connect view to controller in simplest way. there is no exact design pattern role to force the developer. it lets you to be free in developing your own framework. design your template engine , html elements and animation effects.
 
 to use libraries you can use `include` or `ainclude` function to use your library.
 
@@ -30,6 +26,7 @@ to use libraries you can use `include` or `ainclude` function to use your librar
 - [GLOBALS Function](https://doc.tedjs.org/fa/page/Globals)
 - [Validation Functions](https://doc.tedjs.org/fa/page/Validation)
 - [DOM Functions](https://doc.tedjs.org/fa/page/DOM)
+- [Math And Time](https://doc.tedjs.org/fa/page/MathAndTime)
 - to read more visit [Tedjs Document](https://doc.tedjs.org/)
 
 
