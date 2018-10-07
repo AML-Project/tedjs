@@ -2366,7 +2366,7 @@ var tedApi;
 					fn.call(equ, i, XANS, PERC);
 
 					if( tedApi.isFunction( onEquationStep[count] )){
-						onEquationStep[count].call(equ, i, XANS, PERC);
+						onEquationStep[count].call(equ, i, XANS, PERC,count);
 					}
 
 					if(PERC < perCall){
@@ -2377,7 +2377,7 @@ var tedApi;
 					}
 
 					if (tedApi.isFunction(onPrecentCall.data[perCall])) {
-						onPrecentCall.data[perCall].call(equ, i, XANS, PERC);
+						onPrecentCall.data[perCall].call(equ, i, XANS, PERC,perCall);
 					}
 
 					if (stop) return 1;
