@@ -2274,6 +2274,10 @@ var tedApi;
 
 			if (!tedApi.isArray(points[0])) return -2;
 
+			if(!tedApi.isFunction(done)){
+				done = function(){};
+			}
+
 			function isPoint (a) {
 				if (!tedApi.isArray(a)) return false;
 
@@ -2420,6 +2424,7 @@ var tedApi;
 					}
 					onPrecentCall.list.sort(function(a, b){return a - b});
 				}
+				return this;
 			};
 
 			this.point = function (num,callback){
@@ -2433,6 +2438,7 @@ var tedApi;
 						}
 					}
 				}
+				return this;
 			}
 
 			this.start = function (lo) {
