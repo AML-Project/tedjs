@@ -199,10 +199,6 @@ var tedApi;
 					return tedApi.compile(this.self);
 				},
 
-				removeAttr   : function (a) {
-					return tedApi.removeAttr(this.self, a);
-				},
-
 				ElementStyle : function (objcss) {
 					if (!tedApi.isObject(objcss)) return 0;
 
@@ -380,7 +376,7 @@ var tedApi;
 	function $$GET () {
 		var se = document.location.search;
 
-		if (se.trim() == '') return {};
+		if (se.trim() === '') return {};
 
 		var b = se.slice(1).split('&');
 
@@ -435,7 +431,7 @@ var tedApi;
 	function $$HASH () {
 		var se = document.location.hash;
 
-		if (se.trim() == '' || se.trim() == '#') return {};
+		if (se.trim() === '' || se.trim() == '#') return {};
 
 		var b = se.slice(1).split('&');
 
@@ -4797,7 +4793,7 @@ var tedApi;
 		},
 
 		Backup               : function (c, b) {
-			if (!tedApi.isUndefined(c.oldIn) && b) return 0;
+			if (!tedApi.isUndefined(c.oldIn) && !b) return 0;
 
 			if (tedApi.isElement(c)) {
 				c.oldOut = c.outerHTML;
@@ -4828,7 +4824,6 @@ var tedApi;
 			if (tedApi.isUndefined(c.oldIn)) return 0;
 
 			if (tedApi.isElement(c)) {
-				//c.outerHTML = c.oldOut;
 
 				c.innerHTML = c.oldIn;
 
